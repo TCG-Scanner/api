@@ -28,7 +28,7 @@ This will automatically reload the code whenever the file is saved
 
 #### `Windows`
 
-https://github.com/UB-Mannheim/tesseract/wiki\
+https://github.com/UB-Mannheim/tesseract/wiki
 If you don't know whether to use 64 or 32 bit, most likely you will be using 64 bit.\
 Download the tesseract-ocr-w{BIT}-setup-{VERSION}.exe file if running on 64 bit.\
 
@@ -40,7 +40,7 @@ or\
 set `TESSERACT_PATH` to be
 `"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"` or wherever you installed tesseract,
 in your `.env` file. If you don't have a `.env` file yet copy or rename `.env.example`
-to be `.env`, then uncomment `TESSERACT_PATH` and set it's value.
+to be `.env` inside this repo folder, `NOT` in the `Tesseract-OCR` folder, then uncomment `TESSERACT_PATH` and set it's value.
 
 ##### Please note to use 2 backslashes in your path when setting the value in the `.env` file.
 
