@@ -28,7 +28,7 @@ This will automatically reload the code whenever the file is saved
 
 #### `Windows`
 
-https://github.com/UB-Mannheim/tesseract/wiki\
+https://github.com/UB-Mannheim/tesseract/wiki
 If you don't know whether to use 64 or 32 bit, most likely you will be using 64 bit.\
 Download the tesseract-ocr-w{BIT}-setup-{VERSION}.exe file if running on 64 bit.\
 
