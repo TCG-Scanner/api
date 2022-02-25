@@ -1,5 +1,27 @@
 # TCG-Scanner API
 
+## How to run
+
+After going through the setup, in a terminal,
+navigate to this folder. Activate the virtual environment with the same steps
+in the `Set virtual environment & install packages` section's activation instructions.
+Then run with
+
+```
+python3 src/main.py
+```
+
+<br>
+
+##### Optionally
+For a better development experience, download [NodeJS](https://nodejs.org/en/download/). Then in the terminal instead of the command above, run
+
+```
+npx nodemon src/main.py
+```
+
+This will automatically reload the code whenever the file is saved
+
 ## Set Up
 
 ### 1. Download Tesseract
@@ -41,6 +63,37 @@ if your distrobution is not listed below.
 ##### Arch
 
 `sudo pacman -S tesseract`
+
+ <br>
+
+### 2. Set virtual environment & install packages
+
+With your terminal, `cd` into this project folder if on UNIX.\
+
+Windows CMD example:\
+`cd C:\Users\name\Documents\projects\api`
+
+Use `venv` to create a virtual environment
+`python3 -m venv venv`\
+If python3 does not exist in your PATH, try `python` instead.
+
+#### Activate the virtual environment
+
+##### Windows CMD
+
+> `venv\Scripts\activate.bat`
+
+##### Windows Powershell
+
+> `venv\Scripts\activate.ps1`
+
+##### UNIX
+
+> `source venv/bin/activate`
+
+#### Install Packages
+
+`python3 -m pip install -r requirements.txt`
 
 ## .env variables
 
